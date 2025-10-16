@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/018/930/500/non_2x/discord-logo-discord-icon-transparent-free-png.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id":21,
+    "description": "Chat, voice, and video platform for communities and friends.",
+    "size": 75,
+    "reviews": 6200000,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 3900000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/018/930/491/non_2x/skype-logo-skype-icon-transparent-free-png.png",
+    "title": "Skype",
+    "companyName": "Microsoft Corp.",
+    "id": 22,
+    "description": "Video calling and instant messaging app for work and personal use.",
+    "size": 80,
+    "reviews": 3500000,
+    "ratingAvg": 4.2,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1750000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/018/930/719/non_2x/viber-logo-viber-icon-transparent-free-png.png",
+    "title": "Viber",
+    "companyName": "Rakuten Inc.",
+    "id": 23,
+    "description": "Free messaging and calling app with stickers and group chats.",
+    "size": 68,
+    "reviews": 2800000,
+    "ratingAvg": 4.4,
+    "downloads": 10.2,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 1350000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=160&id=nJcA2q1aR7KO&format=png",
+    "title": "Slack",
+    "companyName": "Slack Technologies LLC",
+    "id": 24,
+    "description": "Collaboration hub for work — organized messaging and integrations for teams.",
+    "size": 90,
+    "reviews": 1800000,
+    "ratingAvg": 4.3,
+    "downloads": 7.4,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1010000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Microsoft_Teams/Microsoft_Teams-Logo.wine.svg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corp.",
+    "id": 25,
+    "description": "Workplace chat, video meetings, and collaboration app from Microsoft.",
+    "size": 110,
+    "reviews": 7200000,
+    "ratingAvg": 4.5,
+    "downloads": 5.5,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 4250000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/WeChat/WeChat-App-Icon-Logo.wine.svg",
+    "title": "WeChat",
+    "companyName": "Tencent Holdings Ltd.",
+    "id": 26,
+    "description": "All-in-one messaging, social media, and mobile payment app.",
+    "size": 95,
+    "reviews": 8800000,
+    "ratingAvg": 4.1,
+    "downloads": 8.5,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 3900000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/023/987/004/non_2x/line-app-logo-line-app-logo-transparent-line-app-icon-transparent-free-free-png.png",
+    "title": "LINE",
+    "companyName": "LINE Corporation",
+    "id": 27,
+    "description": "Popular messaging app with free calls, stickers, and social features.",
+    "size": 70,
+    "reviews": 4100000,
+    "ratingAvg": 4.4,
+    "downloads": 9.3,
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2120000 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Google_Meet/Google_Meet-Logo.wine.svg",
+    "title": "Google Meet",
+    "companyName": "Google LLC",
+    "id": 28,
+    "description": "Video meetings and conferencing app for professional and personal use.",
+    "size": 85,
+    "reviews": 5900000,
+    "ratingAvg": 4.5,
+    "downloads": 10.5,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3750000 }
+    ]
+  }
+]
