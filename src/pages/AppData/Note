@@ -4,3 +4,23 @@ link
 github 
 play store
 appstore
+
+sort order
+ const [sortOrder, setSortOrder] = useState("");
+ .sort((a, b) =>
+      sortOrder === "high-low"
+        ? b.downloads - a.downloads
+        : sortOrder === "low-high"
+        ? a.downloads - b.downloads
+        : 0
+    );
+
+<select
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value)}
+              className="w-full lg:w-auto"
+            >
+              <option value="">Sort by Downloads</option>
+              <option value="high-low">High to Low</option>
+              <option value="low-high">Low to High</option>
+            </select>

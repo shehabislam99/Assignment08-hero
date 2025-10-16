@@ -1,28 +1,27 @@
+import { TriangleAlert } from "lucide-react";
 import React from "react";
-import { useRouteError, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
-  const error = useRouteError();
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 flex items-center justify-center px-4">
-      <div className="text-center">
-        <div className="text-6xl md:text-8xl text-blue-600 mb-8">😵</div>
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+      <div className="text-center ">
+        <div className="flex justify-center mb-6">
+          <TriangleAlert className="w-35 h-35 text-red-700" />
+        </div>
+        <h1 className="text-4xl md:text-6xl font-bold text-shadow-amber-700 mb-4">
           Oops!
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-8">
-          {error?.statusText || error?.message || "Something went wrong!"}
+        <p className="text-xl md:text-2xl text-gray-400 mb-4">
+          Something went wrong!
         </p>
-        <p className="text-gray-500 mb-8">
-          Sorry, the page you are looking for doesn't exist or has been moved.
+        <p className="text-red-500 mb-4">
+          Sorry,This page doesn't exist or has been moved. You Write Wrong
+          keyword.
         </p>
-        <Link
-          to="/"
-          className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors transform hover:scale-105"
-        >
-          Go Back Home
-        </Link>
+        <button className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md border-none font-semibold hover:text-blue-700 ">
+          <Link to="/">Go Back Home</Link>
+        </button>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const AppData = ({ singleApp }) => {
   const { image, title, id, downloads, ratingAvg } = singleApp || {};
 
   return (
-    <Link to={`/AppDetails/${id}`}>
+    <Link to={`/Apps/${id}`}>
       <div className="bg-white border-none rounded-lg  shadow-md hover:bg-blue-400 p-4 transition-all duration-200">
         <figure className="p-4 ">
           <img

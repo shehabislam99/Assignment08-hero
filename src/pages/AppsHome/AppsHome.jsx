@@ -5,7 +5,7 @@ import { TrendingUp } from "lucide-react";
 
 const AppsHome = ({ apps = [] }) => {
   return (
-    <div className="mx-auto py-16">
+    <div className="mx-auto py-16 bg-[#F1F5E8]">
       <div className="px-4">
         <div className="item-center text-center mb-12">
           <div className="flex justify-center">
@@ -19,7 +19,7 @@ const AppsHome = ({ apps = [] }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="px-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {apps?.map((singleApp) => (
             <HomeData key={singleApp.id} singleApp={singleApp} />
           ))}

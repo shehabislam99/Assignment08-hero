@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import AppData from "../AppData/AppData";
 
 const Apps = () => {
   const data = useLoaderData();
   const [allApps, setAllApps] = useState([]);
   const [searchText, setSearchText] = useState("");
-  const [sortOrder, setSortOrder] = useState("");
   const [loading, setLoading] = useState(true);
   const [searchLoading, setSearchLoading] = useState(false);
 
@@ -25,17 +24,9 @@ const Apps = () => {
     }
   }, [searchText]);
 
-  const filteredApps = allApps
-    .filter((apps) =>
-      apps.title.toLowerCase().includes(searchText.toLowerCase())
-    )
-    .sort((a, b) =>
-      sortOrder === "high-low"
-        ? b.downloads - a.downloads
-        : sortOrder === "low-high"
-        ? a.downloads - b.downloads
-        : 0
-    );
+  const filteredApps = allApps.filter((apps) =>
+    apps.title.toLowerCase().includes(searchText.toLowerCase())
+  );
 
   if (loading) {
     return (
@@ -46,49 +37,30 @@ const Apps = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Our All Applications
-          </h1>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Explore All Apps on the Market developed by us. We code for
-            Millions.
+    <div className="min-h-screen bg-[#F1F5E8] ">
+      <div className="text-center">
+        <h1 className="text-[40px] md:text-[48px] font-bold mt-18 mb-2">
+          Our All Applications
+        </h1>
+        <p className="text-[#627382] text-xl mx-auto">
+          Explore All Apps on the Market developed by us. We code for Millions.
+        </p>
+      </div>
+      <div className="py-16 px-12">
+        <div className="mb-5 flex flex-col lg:flex-row justify-between items-center gap-8">
+          <p className="font-semibold text-2xl text-[001931]">
+            (<b className="">{filteredApps.length}</b>)Apps Found
           </p>
-        </div>
 
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
-            <p className="text-lg text-gray-700">
-              (<b className="text-blue-600">{filteredApps.length}</b>)Apps Found
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="search Apps"
-                  value={searchText}
-                  onChange={(e) => setSearchText(e.target.value)}
-                  className="input input-bordered w-full lg:w-64 pr-10"
-                />
-                {searchLoading && (
-                  <div className="absolute right-3 top-3">
-                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
-                  </div>
-                )}
-              </div>
-
-              <select
-                value={sortOrder}
-                onChange={(e) => setSortOrder(e.target.value)}
-                className="select select-bordered w-full lg:w-auto"
-              >
-                <option value="">Sort by Downloads</option>
-                <option value="high-low">High to Low</option>
-                <option value="low-high">Low to High</option>
-              </select>
+          <div className="flex flex-col border-1 border-[#D2D2D2] shadow-xs rounded-sm sm:flex-row sm:justify-center gap-3 w-auto">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="search Apps"
+                value={searchText}
+                onChange={(e) => setSearchText(e.target.value)}
+                className=" p-2 "
+              />
             </div>
           </div>
         </div>
@@ -99,12 +71,13 @@ const Apps = () => {
             <p className="text-gray-600 mt-4">Searching apps...</p>
           </div>
         ) : filteredApps.length === 0 ? (
-          <div className="text-center py-12">
-            <div className="text-red-500 text-xl mb-4">📱</div>
-            <p className="text-red-500 text-xl font-semibold">No App Found</p>
-            <p className="text-gray-600 mt-2">
-              Try adjusting your search terms or browse all apps
-            </p>
+          <div className="text-center mt-20 ">
+            <h1 className="text-red-700 text-3xl font-bold my-4">
+              Such App Is None Here
+            </h1>
+            <button className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md border-none font-semibold hover:text-blue-700">
+              <Link to="/">Go Back Home</Link>
+            </button>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

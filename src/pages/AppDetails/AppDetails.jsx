@@ -49,7 +49,7 @@ const AppDetails = () => {
 
   if (!app) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="bg-[#F1F5E8] min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="text-red-500 text-6xl mb-4">❌</div>
           <h1 className="text-2xl font-bold text-red-600 mb-4">

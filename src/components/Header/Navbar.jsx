@@ -7,13 +7,19 @@ const Navbar = () => {
   const links = (
     <>
       <Link to="/">
-        <li className="m-2 font-medium text-[16px]">Home</li>
+        <li className="m-2 hover:text-blue-700 hover:underline font-medium text-[16px]">
+          Home
+        </li>
       </Link>
       <Link to="/Apps">
-        <li className="m-2 font-medium text-[16px]">Apps</li>
+        <li className="m-2 hover:text-blue-700 hover:underline font-medium text-[16px]">
+          Apps
+        </li>
       </Link>
       <Link to="/Installation">
-        <li className="m-2 font-medium text-[16px]">Installation</li>
+        <li className="m-2 hover:text-blue-700 hover:underline  font-medium text-[16px]">
+          Installation
+        </li>
       </Link>
     </>
   );
@@ -38,7 +44,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 ">{links}</ul>
+        <ul className="menu menu-horizontal px-1  ">{links}</ul>
       </div>
       <div className="mr-10">
         <a className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-sm border-none">
