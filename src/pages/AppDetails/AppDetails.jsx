@@ -80,7 +80,7 @@ const AppDetails = () => {
                 <img src={ratings} alt="" className="ml-9 bg-none w-10 h-10" />
                 <p className="my-2">Average Ratings</p>
                 <span className="font-extrabold  text-4xl">
-                  {app.ratingAvg}M
+                  {app.ratingAvg}
                 </span>
               </div>
 
@@ -100,7 +100,7 @@ const AppDetails = () => {
                     : "bg-blue-600 hover:bg-green-700 transform hover:scale-120"
                 }`}
               >
-                {isInstalled ? "It Installed" : "Install Now (2 MB)"}
+                {isInstalled ? "It Installed" : "Install Now"} ({app.size}MB)
               </button>
             </div>
           </div>
@@ -124,8 +124,6 @@ const AppDetails = () => {
           <h2 className="text-2xl font-semibold mb-4 ">Description</h2>
           <p className="text-[#627382] leading-relaxed">{app.description}</p>
         </div>
-
-        <ToastContainer position="bottom-right" />
       </div>
     </div>
   );
