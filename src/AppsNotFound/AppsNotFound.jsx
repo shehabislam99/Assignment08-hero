@@ -1,67 +1,26 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import pictures from "../../assetss/App-Error.png";
+import Apps from "../pages/Apps/Apps";
 
-const AppNotFound = () => {
-  const navigate = useNavigate();
-
+const AppsNotFound = () => {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#f8fbf3",
-        textAlign: "center",
-        padding: "20px",
-      }}
-    >
-      {/* ❌ Animated Error Icon */}
-      <div
-        style={{
-          fontSize: "8rem",
-          color: "#ff4b4b",
-          animation: "pulse 1.2s infinite alternate",
-        }}
-      >
-        ✖
+    <div className="min-h-screen item-center text-center bg-[#F1F5E8]">
+      <div className="mt-20 flex justify-center mb-6">
+        <img src={pictures} alt="" />
       </div>
-
-      <h1 style={{ color: "red", fontWeight: "bold", fontSize: "2rem" }}>
-        App Not Found
+      <h1 className="py-3 font-semibold text-5xl text-[#001931] ">
+        OPPS!! APP NOT FOUND
       </h1>
-
-      <button
-        onClick={() => navigate("/")}
-        style={{
-          backgroundColor: "#1a73e8",
-          color: "white",
-          fontSize: "1rem",
-          fontWeight: "600",
-          padding: "10px 20px",
-          border: "none",
-          borderRadius: "8px",
-          cursor: "pointer",
-          transition: "0.3s ease",
-        }}
-        onMouseOver={(e) => (e.target.style.backgroundColor = "#185abc")}
-        onMouseOut={(e) => (e.target.style.backgroundColor = "#1a73e8")}
-      >
-        Browse All Apps
+      <p className="py-3 text-lg text-[#627382]">
+        The App you are requesting is not found on our system. please try
+        another apps
+      </p>
+      <button className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md border-none font-semibold hover:text-blue-700 ">
+        <Link to="/">Go Main App</Link>
       </button>
-
-      {/* Inline keyframes */}
-      <style>
-        {`
-          @keyframes pulse {
-            from { transform: scale(1); opacity: 0.9; }
-            to { transform: scale(1.1); opacity: 1; }
-          }
-        `}
-      </style>
     </div>
   );
 };
 
-export default AppNotFound;
+export default AppsNotFound;

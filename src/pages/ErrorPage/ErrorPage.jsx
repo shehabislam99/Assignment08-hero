@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-100 flex items-center justify-center px-4">
+    <div className=" flex items-center justify-center px-4 min-h-screen bg-[#F1F5E8] ">
       <div className="text-center ">
         <div className="flex justify-center mb-6">
           <TriangleAlert className="w-35 h-35 text-red-700" />
