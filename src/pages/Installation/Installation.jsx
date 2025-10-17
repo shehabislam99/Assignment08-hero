@@ -30,7 +30,6 @@ const Installation = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto px-4">
-        {/* Header Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             My Installation
@@ -40,7 +39,6 @@ const Installation = () => {
           </p>
         </div>
 
-        {/* Stats */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-lg text-gray-700 mb-4 sm:mb-0">
@@ -61,8 +59,6 @@ const Installation = () => {
             )}
           </div>
         </div>
-
-        {/* Installed Apps Grid */}
         {installedApps.length === 0 ? (
           <div className="text-center py-12">
             <div className="text-gray-400 text-6xl mb-4">📱</div>
