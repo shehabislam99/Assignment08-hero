@@ -47,7 +47,10 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1  ">{links}</ul>
       </div>
       <div className="mr-10">
-        <a className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-sm border-none">
+        <a
+          href="https://github.com/shehabislam99"
+          className="btn bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-sm border-none"
+        >
           <FaGithub></FaGithub> Contribute
         </a>
       </div>

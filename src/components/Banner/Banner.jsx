@@ -21,15 +21,21 @@ const Banner = () => {
         </p>
       </div>
       <div className="mt-2 flex flex-col-reverse md:flex-row justify-center items-center gap-3">
-        <button className="flex items-center gap-2 btn bg-white text-black border-[#e5e5e5] rounded-lg shadow hover:shadow-md transition">
+        <a
+          href="https://play.google.com/"
+          className="flex items-center gap-2 btn bg-white text-black border-[#e5e5e5] rounded-lg shadow hover:shadow-md transition"
+        >
           <img src={pic} className="h-6 w-6" />
           Google Play
-        </button>
+        </a>
 
-        <button className="flex items-center gap-2 btn bg-white text-black border-[#e5e5e5] rounded-lg shadow hover:shadow-md transition ">
+        <a
+          href="https://appstoreconnect.apple.com/"
+          className="flex items-center gap-2 btn bg-white text-black border-[#e5e5e5] rounded-lg shadow hover:shadow-md transition "
+        >
           <img src={pics} className="h-6 w-6 bg-none" />
           App Store
-        </button>
+        </a>
       </div>
       <img
         src={appimage}

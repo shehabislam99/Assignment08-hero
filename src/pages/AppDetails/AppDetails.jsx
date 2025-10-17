@@ -14,11 +14,12 @@ import "react-toastify/dist/ReactToastify.css";
 import Downloads from "../../../assetss/icon-downloads.png";
 import ratings from "../../../assetss/icon-ratings.png";
 import reviewss from "../../../assetss/icon-review.png";
+import BackGroundLoading from "../../BackGroundLoading/BackGroundLoading";
 
 const AppDetails = () => {
   const { id } = useParams();
   const app = useLoaderData();
-  const [loading, setLoading] = useState(true);
+
   const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
@@ -26,7 +27,6 @@ const AppDetails = () => {
       const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
       setIsInstalled(stored.some((item) => item.id === app.id));
     }
-    setLoading(false);
   }, [app]);
 
   const handleInstall = () => {
@@ -41,11 +41,12 @@ const AppDetails = () => {
 
   const chartData = app.ratings.map((rating, index) => ({
     ...rating,
-    fill: ["#ff6b6b", "#ffa726", "#ffee58", "#9ccc65", "#66bb6a"][index],
+    fill: ["red", "#ffa726", "blue", "#9ccc65", "green"][index],
   }));
 
   return (
     <div className="min-h-screen bg-[#F1F5E8] mt-20 my-10">
+      <BackGroundLoading></BackGroundLoading>
       <div className=" container mx-auto px-5">
         <div className="flex flex-col md:flex-row items-start gap-15 mb-12">
           <div className="">

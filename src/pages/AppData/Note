@@ -1,9 +1,5 @@
 To-Do,,,,,,,
 
-link
-github 
-play store
-appstore
 
 sort order
  const [sortOrder, setSortOrder] = useState("");

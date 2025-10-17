@@ -6,14 +6,13 @@ import { FaStar } from "react-icons/fa";
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
   const [sortedApps, setSortedApps] = useState([]);
-  const [loading, setLoading] = useState(true);
+
   const [sortOrder, setSortOrder] = useState("asc");
 
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
     setInstalledApps(stored);
     setSortedApps(stored);
-    setLoading(false);
   }, []);
   const handleUninstall = (appId) => {
     const updatedApps = installedApps.filter((app) => app.id !== appId);
