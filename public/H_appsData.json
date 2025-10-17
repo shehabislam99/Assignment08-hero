@@ -1,12 +1,12 @@
 [
-  {
-    "image": "https://static.vecteezy.com/system/resources/previews/018/930/500/non_2x/discord-logo-discord-icon-transparent-free-png.png",
+   {
+    "image": "https://img.freepik.com/premium-vector/vector-discord-social-media-logo_534308-21667.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "Discord",
     "companyName": "Discord Inc.",
-    "id":21,
-    "description": "Chat, voice, and video platform for communities and friends.",
+    "id": 21,
+    "description": "Discord has transformed digital communication by creating a versatile platform where communities form around shared interests, from gaming and education to art and professional collaboration. Create or join servers dedicated to specific topics, with organized text channels for discussions and voice channels for real-time conversation. The platform's low-latency voice chat ensures crystal-clear communication during gaming sessions, study groups, or virtual meetings, with noise suppression and echo cancellation for optimal audio quality. Video calls support screen sharing, allowing you to stream gameplay, presentations, or any application window to your audience. Text channels support rich formatting, file sharing up to 100MB, and code snippets with syntax highlighting for developers. Server members can use custom emojis, reactions, and threaded conversations to enhance communication. The platform's robust moderation tools include user roles with granular permissions, automated moderation bots, and content filtering to maintain community guidelines. Discord Stage Channels enable moderated audio events like town halls, podcasts, or Q&A sessions with designated speakers and audience members. Nitro subscription offers enhanced features like higher quality screen sharing, larger file uploads, and custom tags. With features like server templates for quick community setup, activity status integration with games and applications, and comprehensive privacy controls, Discord provides a flexible communication platform that adapts to communities of all sizes while maintaining the reliability and performance required for real-time interaction and long-term community building.",
     "size": 75,
-    "reviews": 6200000,
+    "reviews": 87,
     "ratingAvg": 4.6,
     "downloads": 5,
     "ratings": [
@@ -18,13 +18,13 @@
     ]
   },
   {
-    "image": "https://static.vecteezy.com/system/resources/previews/018/930/491/non_2x/skype-logo-skype-icon-transparent-free-png.png",
+    "image": "https://1000logos.net/wp-content/uploads/2021/05/Skype-logo.png",
     "title": "Skype",
     "companyName": "Microsoft Corp.",
     "id": 22,
-    "description": "Video calling and instant messaging app for work and personal use.",
+    "description": "Skype continues to be a pioneer in global communication, offering reliable voice and video calling alongside messaging features that connect people across devices and platforms worldwide. Make high-quality video calls with up to 100 people for personal or business use, with features like background blur, call recording, and live subtitles in multiple languages. The platform's screen sharing capability allows you to present documents, photos, or your entire desktop during calls, perfect for collaborative work or technical support. Skype's messaging features include rich text formatting, file sharing up to 300MB, and photo/video sharing with automatic compression optimization. Create group chats with customized names and photos, use reactions to quickly respond to messages, and @mention specific people to get their attention. The Skype Number feature provides you with a dedicated phone number that people can call from traditional phones, while Skype To Go allows discounted calls to mobiles and landlines worldwide. For businesses, Skype Manager provides administrative controls, reporting, and billing management for organizational accounts. The platform's translation features offer real-time subtitle translation during calls and chat message translation in over 60 languages. With features like call forwarding to your mobile, voicemail with transcription, and integration with Outlook contacts, Skype provides a comprehensive communication solution that bridges the gap between personal and professional use while maintaining the reliability and cross-platform compatibility that has made it a trusted communication tool for millions of users over two decades.",
     "size": 80,
-    "reviews": 3500000,
+    "reviews": 65,
     "ratingAvg": 4.2,
     "downloads": 10,
     "ratings": [
@@ -40,9 +40,9 @@
     "title": "Viber",
     "companyName": "Rakuten Inc.",
     "id": 23,
-    "description": "Free messaging and calling app with stickers and group chats.",
+    "description": "Viber provides a feature-rich communication platform that combines messaging, voice calls, and community features with a strong emphasis on privacy and security for users worldwide. Enjoy end-to-end encryption by default for all your one-on-one and group conversations, ensuring that your messages, calls, and shared media remain private between you and your recipients. Make high-quality voice and video calls to other Viber users anywhere in the world at no cost, with the ability to call non-Viber users through Viber Out at competitive international rates. The app's communities feature allows you to create or join groups with up to 1 billion members for large-scale discussions, with admin tools, permissions, and broadcast lists for important announcements. Express yourself with thousands of stickers, GIFs, and emojis, including exclusive sticker packs from popular brands and artists. Viber's self-destruct timer for secret chats automatically deletes messages after a set time, while hidden chats require a PIN to access for additional privacy. The platform supports public accounts for businesses, celebrities, and content creators to engage with their audience through broadcasts, chatbots, and rich media content. Features like message reactions, reply to specific messages, and mention notifications enhance group communication efficiency. With cross-device synchronization, backup to Google Drive, and support for multiple languages, Viber provides a comprehensive messaging solution that balances rich features with robust security measures, making it ideal for both personal communication and community building across global audiences.",
     "size": 68,
-    "reviews": 2800000,
+    "reviews": 59,
     "ratingAvg": 4.4,
     "downloads": 10.2,
     "ratings": [
@@ -54,13 +54,13 @@
     ]
   },
   {
-    "image": "https://img.icons8.com/?size=160&id=nJcA2q1aR7KO&format=png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZFtXjGjP-bv83TPj9hI5IRd3WYz5zYO7EUlrfluELBxVhIIQXf0ETUVcX4-EYvfFzlA&usqp=CAU",
     "title": "Slack",
     "companyName": "Slack Technologies LLC",
     "id": 24,
-    "description": "Collaboration hub for work — organized messaging and integrations for teams.",
+    "description": "Slack transforms workplace communication by replacing email with channels, creating an organized hub where teams can collaborate more effectively and transparently. Organize conversations into dedicated channels for projects, topics, or teams, with the ability to create public channels for company-wide discussions or private channels for sensitive topics. The platform's powerful search functionality indexes all your messages and files, making it easy to find past conversations, decisions, and shared documents. Integrate with over 2,400 apps including Google Drive, Office 365, Salesforce, and Zoom, bringing your essential tools directly into your workflow. Use workflow builder to automate routine processes without coding, creating custom workflows that trigger actions across integrated apps. Slack's threading feature keeps side conversations organized without disrupting the main channel flow, while reactions provide quick feedback without cluttering the conversation. The platform supports voice and video calls with screen sharing, and huddles offer lightweight audio conversations for quick discussions. For enterprises, Enterprise Grid provides advanced security controls, compliance certifications, and centralized administration across multiple workspaces. Features like scheduled messages, reminder settings, and status updates help manage communication expectations, while the do not disturb mode supports work-life balance. With customizable notifications, dark mode themes, and mobile optimization, Slack provides a flexible collaboration platform that adapts to your team's workflow while reducing email overload and creating a searchable knowledge base of your organization's communications.",
     "size": 90,
-    "reviews": 1800000,
+    "reviews": 52,
     "ratingAvg": 4.3,
     "downloads": 7.4,
     "ratings": [
@@ -76,9 +76,9 @@
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corp.",
     "id": 25,
-    "description": "Workplace chat, video meetings, and collaboration app from Microsoft.",
+    "description": "Microsoft Teams serves as the central hub for teamwork in Microsoft 365, bringing together chat, meetings, files, and apps in a single, integrated workspace that enables hybrid work scenarios. Host meetings with advanced features like together mode, which places participants in a shared background for more natural interactions, and large gallery view that displays up to 49 participants simultaneously. The platform's live reactions, raise hand features, and moderated Q&A sessions make large meetings more interactive and inclusive. Teams channels provide dedicated spaces for project collaboration, with tabs that integrate files, apps, and websites directly into the channel interface. Co-author documents in real-time with automatic version history and change tracking, with files stored in SharePoint for enterprise-grade security and compliance. The activity feed aggregates notifications from across your teams, while the command box allows quick access to people, files, and commands. Customize your workspace with apps from the Teams app store, build custom apps with Power Platform, and create automated workflows with Power Automate. Advanced security features include data loss prevention, information barriers, and advanced threat protection that safeguard your organization's sensitive information. For frontline workers, access shift scheduling, task management, and walkie-talkie functionality designed for mobile use. With features like webinar registration pages, town hall events for organization-wide communications, and breakout rooms for small group discussions, Microsoft Teams provides a comprehensive solution that connects distributed teams while maintaining the security, compliance, and integration capabilities required by modern enterprises operating in hybrid work environments.",
     "size": 110,
-    "reviews": 7200000,
+    "reviews": 95,
     "ratingAvg": 4.5,
     "downloads": 5.5,
     "ratings": [
@@ -94,11 +94,11 @@
     "title": "WeChat",
     "companyName": "Tencent Holdings Ltd.",
     "id": 26,
-    "description": "All-in-one messaging, social media, and mobile payment app.",
+    "description": "WeChat has evolved from a simple messaging app into a comprehensive lifestyle platform that integrates social networking, mobile payments, and mini-programs to create an all-in-one digital ecosystem primarily serving Chinese users but with global reach. The app's messaging capabilities include text, voice messages, video calls, and group chats with up to 500 members, supported by stickers, emojis, and custom expressions. Moments function as a social feed where users share photos, videos, and status updates with their contacts, with privacy controls that determine visibility. WeChat Pay revolutionizes daily transactions by enabling mobile payments at millions of merchants, peer-to-peer transfers, bill payments, and financial services like wealth management products and insurance. Mini-programs provide lightweight app-like experiences within WeChat without installation, covering services from food delivery and ride-hailing to e-commerce and government services. Official accounts allow businesses, media, and celebrities to publish content, provide customer service, and engage with followers through automated responses and broadcasting. The platform's search functionality spans conversations, articles, mini-programs, and external content, while the shake feature connects users randomly for social discovery. WeChat Out offers low-cost international calls to landlines and mobiles worldwide, and the translation feature supports multiple languages for cross-cultural communication. With features like health codes for pandemic management in China, city services for government interactions, and file transfer capabilities between devices, WeChat demonstrates how a super app can integrate deeply into users' daily lives while maintaining a consistent user experience across its multifaceted functionality.",
     "size": 95,
-    "reviews": 8800000,
+    "reviews": 110,
     "ratingAvg": 4.1,
-    "downloads": 8.5,
+    "downloads": 18.5,
     "ratings": [
       { "name": "1 star", "count": 900000 },
       { "name": "2 star", "count": 800000 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://static.vecteezy.com/system/resources/previews/023/987/004/non_2x/line-app-logo-line-app-logo-transparent-line-app-icon-transparent-free-free-png.png",
+    "image": "https://static.vecteezy.com/system/resources/previews/018/910/751/non_2x/line-app-logo-line-app-symbol-line-icon-free-free-vector.jpg",
     "title": "LINE",
     "companyName": "LINE Corporation",
     "id": 27,
-    "description": "Popular messaging app with free calls, stickers, and social features.",
+    "description": "LINE has become an essential communication and lifestyle platform across Asia, particularly in Japan, Taiwan, and Thailand, by combining messaging, social networking, and diverse services into a single application. The platform's messaging features include text, photos, videos, voice messages, and free voice/video calls, enhanced by an extensive collection of stickers featuring original characters like Cony, Brown, and Sally. Timeline serves as a social feed where users share updates with friends, while LINE Official Accounts allow businesses, celebrities, and media to broadcast messages and interact with followers. LINE Pay enables mobile payments at physical stores, online merchants, and peer-to-peer transfers, integrated with LINE Points rewards program. The platform's LINE Games offer casual gaming experiences with social features, while LINE Manga and LINE Music provide digital content subscriptions. LINE Shopping aggregates e-commerce deals and offers cashback rewards, and LINE Taxi integrates ride-hailing services in supported regions. Keep feature allows users to save important messages, links, and files with organized folders, while Note function enables blog-style posting with rich formatting. The platform supports multiple account types including business accounts with advanced features, and LINE WORKS extends the platform for enterprise communication with enhanced security and administrative controls. With features like hidden chats requiring authentication, message recall within 24 hours, and comprehensive privacy settings, LINE provides a versatile platform that balances social connectivity with practical services while maintaining the cute, friendly aesthetic that has become its trademark across Asian markets.",
     "size": 70,
-    "reviews": 4100000,
+    "reviews": 63,
     "ratingAvg": 4.4,
-    "downloads": 9.3,
+    "downloads": 5.8,
     "ratings": [
       { "name": "1 star", "count": 350000 },
       { "name": "2 star", "count": 280000 },
@@ -130,11 +130,11 @@
     "title": "Google Meet",
     "companyName": "Google LLC",
     "id": 28,
-    "description": "Video meetings and conferencing app for professional and personal use.",
+    "description": "Google Meet provides enterprise-grade video conferencing that's secure, reliable, and easy to use, built on Google's robust infrastructure and integrated with the Google Workspace ecosystem. Host high-quality video meetings with up to 100 participants for up to 60 minutes in the free version, or unlimited duration with larger participant limits in Google Workspace plans. The platform's adaptive layout automatically adjusts to highlight active speakers, while tiled layout displays up to 16 participants simultaneously for more balanced visibility. Low-light mode enhances video quality in dim environments, and noise cancellation filters out background sounds for clearer audio. Live captions generated by Google's speech recognition technology make meetings more accessible and help non-native speakers follow conversations. The platform's security features include encryption in transit, anti-abuse protections, and meeting codes that are sufficiently long and complex to prevent guessing. Integration with Google Calendar allows one-click joining from calendar invites, while the mobile app provides full meeting functionality with optimized bandwidth usage. Hosts can control participant access through admission requests, manage who can present content, and remove participants if necessary. For education users, breakout rooms enable small group discussions, attendance tracking provides participation records, and hand raising features manage speaking order. With features like polls and Q&A for interactive sessions, recording to Google Drive for later reference, and international dial-in numbers for participants without internet access, Google Meet provides a comprehensive video conferencing solution that scales from quick one-on-one calls to large organizational meetings while maintaining the simplicity and reliability that users expect from Google products.",
     "size": 85,
-    "reviews": 5900000,
+    "reviews": 81,
     "ratingAvg": 4.5,
-    "downloads": 10.5,
+    "downloads": 10.3,
     "ratings": [
       { "name": "1 star", "count": 300000 },
       { "name": "2 star", "count": 250000 },

@@ -13,7 +13,6 @@ export const router = createBrowserRouter([
     path: "/",
     Component: Root,
     errorElement: <ErrorPage></ErrorPage>,
-
     children: [
       {
         index: true,
@@ -33,14 +32,14 @@ export const router = createBrowserRouter([
       },
       {
         path: "/Apps/:id",
-        loader: async ({ right }) => {
+        loader: async ({ params }) => {
           const response = await fetch("/appsData.json");
-          const Apps = await response.json();
-          const App = Apps.find((a) => a.id === right.id);
-          if (!App) {
-            throw new Response("Not Found", { status: 404 });
-          }
-          return App;
+          const apps = await response.json();
+          const app = apps.find(
+            (app) => app.id.toString() === params.id.toString()
+          );
+          if (!app) throw new Response("Not Found", { status: 404 });
+          return app;
         },
         Component: AppDetails,
         errorElement: <AppsNotFound></AppsNotFound>,
