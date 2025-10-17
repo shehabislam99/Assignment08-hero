@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex gap-1">
               <img src={images} className="w-8 h-8 " alt="" />
               <a className="text-[20px] font-semibold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] inline-block text-transparent bg-clip-text ">
-                DEV.IO
+                Canvas.IO
               </a>
             </div>
             <p className="text-gray-200 my-4">

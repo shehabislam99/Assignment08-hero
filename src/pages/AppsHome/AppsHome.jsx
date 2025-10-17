@@ -27,7 +27,7 @@ const AppsHome = ({ apps = [] }) => {
 
         <div className="text-center">
           <Link
-            to="/apps"
+            to="/Apps"
             className="px-10 p-3 w-auto text-white font-semibold bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md text-[16px] hover:bg-blue-700 transition-colors transform hover:scale-105"
           >
             Show All
